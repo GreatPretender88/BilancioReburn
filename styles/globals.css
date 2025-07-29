@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  @apply bg-primary text-white font-sans;
+}
+
+input, select, button {
+  @apply rounded-2xl p-2 shadow-md text-black;
+}
+
+.container {
+  @apply max-w-4xl mx-auto p-4;
+}
